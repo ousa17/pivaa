@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.005026">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: gradle" time="3.101534">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: last_git_commit" time="0.067345">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: slack" time="0.378608">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
