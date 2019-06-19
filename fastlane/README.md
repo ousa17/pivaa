@@ -26,6 +26,11 @@ Runs all the tests
 fastlane android metrics
 ```
 Metrics
+### android documentation
+```
+fastlane android documentation
+```
+Documentation
 ### android sec
 ```
 fastlane android sec

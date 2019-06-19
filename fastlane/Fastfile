@@ -35,6 +35,15 @@ desc "Metrics"
     # You can also use other beta testing services here
   end
 
+desc "Documentation"
+  lane :documentation do
+     #sonar(project_configuration_path: "config/sonar.properties")
+     
+   `echo(key: "Documentation")`
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
  desc "Security"
   lane :sec do
     gradle(task: "clean assembleDebug")
