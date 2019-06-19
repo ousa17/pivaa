@@ -1,0 +1,1 @@
+~ 2javaXjhrKapp/src/main/java/com/htbridge/pivaa/handlers/database/DatabaseAdapter.java

@@ -1,0 +1,6 @@
+projectKey=com.htbridge.pivaa:pivaaKey
+serverUrl=http://localhost:9000
+serverVersion=7.7.0.23042
+dashboardUrl=http://localhost:9000/dashboard?id=com.htbridge.pivaa%3ApivaaKey
+ceTaskId=AWtwuzUT-uZWsw0rW5vb
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWtwuzUT-uZWsw0rW5vb

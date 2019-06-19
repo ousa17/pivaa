@@ -1,0 +1,1 @@
+ 2xmlXhr7app/src/main/res/layout/activity_broadcast_receiver.xml

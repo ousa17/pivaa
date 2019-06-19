@@ -1,0 +1,149 @@
+Environment variables:
+  - Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.qer2sunWlF/Render
+  - BUNDLER_ORIG_BUNDLER_ORIG_MANPATH=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_BUNDLER_VERSION=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_BUNDLE_BIN_PATH=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_BUNDLE_GEMFILE=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_GEM_HOME=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_GEM_PATH=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_MANPATH=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  - BUNDLER_ORIG_RB_USER_INSTALL=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_RUBYLIB=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - BUNDLER_ORIG_RUBYOPT=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+  - FASTLANE_LANE_NAME=metrics
+  - FASTLANE_PLATFORM_NAME=android
+  - FORK_XCODE_WRITING=true
+  - HISTFILE=/Users/badredahabelghiti/Library/Preferences/AndroidStudio3.4/terminal/history/history-66
+  - HOME=/Users/badredahabelghiti
+  - JAVA_ARCH=x86_64
+  - JAVA_MAIN_CLASS_25836=org.sonarsource.scanner.cli.Main
+  - LC_CTYPE=en_US.UTF-8
+  - LESS=-R
+  - LOGIN_SHELL=1
+  - LOGNAME=badredahabelghiti
+  - LSCOLORS=Gxfxcxdxbxegedabagacad
+  - PAGER=less
+  - PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  - PWD=/Users/badredahabelghiti/Documents/Seifr/DevSecOps/Projects/Android/pivaa
+  - SHELL=/bin/zsh
+  - SHLVL=2
+  - SLACK_URL=https://hooks.slack.com/services/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
+  - SONAR_SCANNER_HOME=/usr/local/Cellar/sonar-scanner/3.3.0.1492/libexec
+  - SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.X7G46CLGok/Listeners
+  - TERM=xterm-256color
+  - TERMINAL_EMULATOR=JetBrains-JediTerm
+  - TMPDIR=/var/folders/6r/c3q6gzjj62qbrxvf2jcwf2180000gp/T/
+  - USER=badredahabelghiti
+  - XPC_FLAGS=0x0
+  - XPC_SERVICE_NAME=0
+  - ZDOTDIR=
+  - ZSH=/Users/badredahabelghiti/.oh-my-zsh
+  - __CF_USER_TEXT_ENCODING=0x1F6:0x0:0x0
+  - __INTELLIJ_COMMAND_HISTFILE__=/Users/badredahabelghiti/Library/Preferences/AndroidStudio3.4/terminal/history/history-66
+  - com.apple.java.jvmTask=CommandLine
+System properties:
+  - awt.toolkit=sun.lwawt.macosx.LWCToolkit
+  - file.encoding=UTF-8
+  - file.encoding.pkg=sun.io
+  - file.separator=/
+  - ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  - gopherProxySet=false
+  - http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  - java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+  - java.class.path=/usr/local/Cellar/sonar-scanner/3.3.0.1492/libexec/lib/sonar-scanner-cli-3.3.0.1492.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed
+  - java.ext.dirs=/Users/badredahabelghiti/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+  - java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+  - java.io.tmpdir=/var/folders/6r/c3q6gzjj62qbrxvf2jcwf2180000gp/T/
+  - java.library.path=/Users/badredahabelghiti/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_211-b12
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_211
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.211-b12
+  - line.separator=
+
+  - os.arch=x86_64
+  - os.name=Mac OS X
+  - os.version=10.14.5
+  - path.separator=:
+  - project.home=/Users/badredahabelghiti/Documents/Seifr/DevSecOps/Projects/Android/pivaa
+  - scanner.home=/usr/local/Cellar/sonar-scanner/3.3.0.1492/libexec
+  - socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  - sun.arch.data.model=64
+  - sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes
+  - sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=
+  - sun.io.unicode.encoding=UnicodeBig
+  - sun.java.command=org.sonarsource.scanner.cli.Main -Dproject.settings=config/sonar.properties
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=UTF-8
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=unknown
+  - user.country=FR
+  - user.dir=/Users/badredahabelghiti/Documents/Seifr/DevSecOps/Projects/Android/pivaa
+  - user.home=/Users/badredahabelghiti
+  - user.language=en
+  - user.name=badredahabelghiti
+  - user.timezone=Europe/Paris
+SonarQube plugins:
+  - Dependency-Check 1.2.5-SNAPSHOT (dependencycheck)
+  - SonarPython 1.13.0.2922 (python)
+  - SonarCSS 1.0.3.724 (cssfamily)
+  - JaCoCo 1.0.1.143 (jacoco)
+  - SonarGo 1.1.0.1612 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarJS 5.1.1.7506 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - SonarC# 7.11.0.8083 (csharp)
+  - SonarJava 5.13.0.18197 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarHTML 3.1.0.1615 (web)
+  - Git 1.8.0.1574 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - SonarPHP 3.0.0.4537 (php)
+  - SonarTS 1.9.0.3766 (typescript)
+  - SonarVB 7.11.0.8083 (vbnet)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AWtQIAOGiIYlb2H1L4ZF
+  - sonar.core.startTime=2019-06-19T17:30:54+0200
+Project server settings:
+Project scanner properties:
+  - sonar.coverage.exclusions=app/src/test
+  - sonar.host.url=http://localhost:9000
+  - sonar.jacoco.reportPaths=app/build/jacoco/testDebugUnitTest.exec
+  - sonar.java.binaries=app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes
+  - sonar.java.coveragePlugin=jacoco
+  - sonar.language=java
+  - sonar.login=******
+  - sonar.projectBaseDir=/Users/badredahabelghiti/Documents/Seifr/DevSecOps/Projects/Android/pivaa
+  - sonar.projectDescription=Description Pivaa Android for proof of concept about security
+  - sonar.projectKey=com.htbridge.pivaa:pivaaKey
+  - sonar.projectName=Pivaa-Android
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.3.0.1492
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=app/src/main
+  - sonar.tests=app/src/test
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/badredahabelghiti/Documents/Seifr/DevSecOps/Projects/Android/pivaa/.scannerwork

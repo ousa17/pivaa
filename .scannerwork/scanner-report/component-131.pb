@@ -1,0 +1,1 @@
+ƒ 2javaXWhrEapp/src/main/java/com/htbridge/pivaa/handlers/about/AboutAdapter.java

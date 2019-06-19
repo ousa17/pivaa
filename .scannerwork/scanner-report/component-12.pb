@@ -1,0 +1,1 @@
+ 2xmlXhr5app/src/main/res/layout/activity_content_provider.xml

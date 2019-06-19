@@ -1,0 +1,1 @@
+H 2javaXQhrKapp/src/main/java/org/apache/commons/codec/language/AbstractCaverphone.java
