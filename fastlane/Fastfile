@@ -94,4 +94,15 @@ desc "Prod"
     )
 end
 
+error do |lane, exception|
+    reset_git_repo(
+      force: true
+    )
+    
+    slack(
+      message: exception.message,
+      success: false
+    )
+end
+
 end
