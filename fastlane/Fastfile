@@ -46,7 +46,7 @@ desc "Documentation"
 
  desc "Security"
   lane :sec do
-    gradle(task: "clean assembleDebug")
+    sh "bash ../script_sec.sh"
     
   
     # sh "your_script.sh"
