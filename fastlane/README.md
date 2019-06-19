@@ -21,11 +21,6 @@ or alternatively using `brew cask install fastlane`
 fastlane android test
 ```
 Runs all the tests
-### android build
-```
-fastlane android build
-```
-Build
 ### android metrics
 ```
 fastlane android metrics
