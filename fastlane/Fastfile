@@ -27,6 +27,15 @@ platform :android do
     gradle(task: "test")
   end
 
+desc "Build"
+  lane :build do
+     gradle(task: "assembleDebug")
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+
 desc "Metrics"
   lane :metrics do
      sonar(project_configuration_path: "config/sonar.properties")
