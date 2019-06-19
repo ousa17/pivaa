@@ -9,7 +9,7 @@ pipeline {
 }
 
   }
-
+  
   stage('Running Tests') {
       steps {
         parallel (
@@ -20,6 +20,16 @@ pipeline {
       }
     }
 
+stage('Running Build') {
+      steps {
+        parallel (
+          "Build Project": {
+            sh 'fastlane build'
+          }
+        )
+      }
+    }
+    
      stage('Running Metrics') {
       steps {
         parallel (
@@ -35,25 +45,26 @@ pipeline {
       sh 'fastlane documentation'
       }
     }
+  
 
   stage ('Security'){
 
   steps {
-    sh 'script_sec.sh'
+    sh 'bash script_sec.sh'
   }
   }
 
    stage ('Prepro'){
    
  steps {
-      printf 'Preprod'
+      sh 'fastlane beta'
       }
    }
 
    stage ('Prod'){
     
     steps {
-      printf 'Prod'
+      sh 'fastlane prod'
       }
    }
 }
