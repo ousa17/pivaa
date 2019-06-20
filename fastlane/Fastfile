@@ -39,7 +39,7 @@ desc "Build"
 desc "Metrics"
   lane :metrics do
      sonar(project_configuration_path: "config/sonar.properties")
-  gradle(task: "dependecyCheckAnalyze") 
+#  gradle(task: "dependecyCheckAnalyze") 
     # sh "your_script.sh"
     # You can also use other beta testing services here
   end
