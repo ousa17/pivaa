@@ -31,7 +31,7 @@ android {
         //suppressionFile file("dependency-suppression.xml").toString()
 
         // Format Report
-        formats("XML","HTML")
+        formats[0,1]
         // /!\/!\/!\/!\/!\
     }
 }
