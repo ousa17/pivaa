@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.owasp.dependencycheck'
 apply from: "$rootDir/jacoco.gradle"
+
 
 android {
     compileSdkVersion 28
@@ -17,6 +19,20 @@ android {
         }
     }
     productFlavors {
+    }
+
+    dependencyCheck {
+        // /!\/!\/!\/!\/!\
+
+        // Fail the build if found !
+        //failBuildOnCVSS 0
+
+        //Accepting the Risk
+        //suppressionFile file("dependency-suppression.xml").toString()
+
+        // Format Report
+        formats("XML","HTML")
+        // /!\/!\/!\/!\/!\
     }
 }
 
