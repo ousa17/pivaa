@@ -31,13 +31,16 @@ stage('Running Build') {
     }
     
      stage('Running Metrics') {
-      steps {
+       steps {
         parallel (
-          "Sonar Metrics": {
+          "Check Dependency": {
+            sh 'fastlane build'
+          },"Sonar Metrics": {
             sh 'fastlane metrics'
           }
         )
-      }
+      }  
+  
     }
 
     stage('Documentation') {
