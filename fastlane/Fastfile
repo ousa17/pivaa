@@ -46,8 +46,6 @@ desc "Check Dependency"
 
 desc "Metrics"
   lane :metrics do
-
-dependencyCheckAnalyze
      sonar(project_configuration_path: "config/sonar.properties") 
     # sh "your_script.sh"
     # You can also use other beta testing services here
