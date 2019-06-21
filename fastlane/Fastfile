@@ -35,19 +35,26 @@ desc "Build"
     # You can also use other beta testing services here
   end
 
+desc "Check Dependency"
+  lane :checkdependency do
+
+ gradle(task:"dependencyCheckAnalyze")
+    
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
 
 desc "Metrics"
   lane :metrics do
-     sonar(project_configuration_path: "config/sonar.properties")
-#  gradle(task: "dependecyCheckAnalyze") 
+
+dependencyCheckAnalyze
+     sonar(project_configuration_path: "config/sonar.properties") 
     # sh "your_script.sh"
     # You can also use other beta testing services here
   end
 
 desc "Documentation"
-  lane :documentation do
-     #sonar(project_configuration_path: "config/sonar.properties")
-     
+  lane :documentation do    
    `echo(key: "Documentation")`
     # sh "your_script.sh"
     # You can also use other beta testing services here
@@ -56,8 +63,6 @@ desc "Documentation"
  desc "Security"
   lane :sec do
     sh "bash ../script_sec.sh"
-    
-  
     # sh "your_script.sh"
     # You can also use other beta testing services here
   end
@@ -66,7 +71,6 @@ desc "Beta"
   lane :beta do
     `echo(key: "Beta")`
     #Crashlytics/Fabric
-  
     # sh "your_script.sh"
     # You can also use other beta testing services here
   end
