@@ -21,6 +21,16 @@ or alternatively using `brew cask install fastlane`
 fastlane android test
 ```
 Runs all the tests
+### android build
+```
+fastlane android build
+```
+Build
+### android checkdependency
+```
+fastlane android checkdependency
+```
+Check Dependency
 ### android metrics
 ```
 fastlane android metrics
@@ -41,6 +51,11 @@ Security
 fastlane android beta
 ```
 Beta
+### android prod
+```
+fastlane android prod
+```
+Prod
 
 ----
 

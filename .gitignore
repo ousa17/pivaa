@@ -85,3 +85,4 @@ lint/tmp/
 .scannerwork/
 .idea/
 .gradle/
+.idea.
