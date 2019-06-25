@@ -20,6 +20,7 @@ You can install it as any other Android applications.
  * If it is a real phone, enable USB debugging
  * Connect it and run ```adb install pivaa.apk```
 
+
 ## Vulnerabilities covered
   
 #### Usage of weak Initialization Vector
