@@ -5,7 +5,7 @@ pipeline {
   stage ('Stage SCM'){
     steps {
   // Checkout code from repository and update any submodules
-  git 'https://github.com/badredaha/pivaa.git'  
+  git 'https://github.com/ousa17/pivaa.git'
 }
 
   }
