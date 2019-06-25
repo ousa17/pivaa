@@ -1,1 +1,0 @@
- 2xmlXfhr+app/src/main/res/layout/content_service.xml

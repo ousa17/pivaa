@@ -1,1 +1,0 @@
-s 2javaXËhr6app/src/main/java/com/htbridge/pivaa/MainActivity.java

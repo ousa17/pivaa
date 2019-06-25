@@ -1,1 +1,0 @@
-0 2javaXÚhrHapp/src/main/java/org/apache/commons/codec/net/QuotedPrintableCodec.java

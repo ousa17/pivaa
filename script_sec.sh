@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 pwd
 printf "\n1 - upload **********\n"
 upload_output=`curl -F  'file=@app/build/outputs/apk/debug/app-debug.apk' http://localhost:8000/api/v1/upload -H "Authorization:a040efa948f0835871d40bd0badfc1e9c85c3a48d8ecd3f9d42418b1d6c453f5"`

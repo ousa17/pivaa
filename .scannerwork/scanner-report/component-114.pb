@@ -1,1 +1,0 @@
-r 2javaXhr7app/src/main/java/com/htbridge/pivaa/Configuration.java

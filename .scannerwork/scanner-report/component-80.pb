@@ -1,1 +1,0 @@
-P 2javaX¹hrNapp/src/main/java/org/apache/commons/codec/language/bm/BeiderMorseEncoder.java

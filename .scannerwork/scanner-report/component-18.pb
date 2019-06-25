@@ -1,1 +1,0 @@
- 2xmlXqhr6app/src/main/res/layout/content_broadcast_receiver.xml

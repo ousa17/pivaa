@@ -1,1 +1,0 @@
-* 2xmlXhhr app/src/main/AndroidManifest.xml

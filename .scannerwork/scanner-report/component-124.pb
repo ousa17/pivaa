@@ -1,1 +1,0 @@
-| 2javaX:hrJapp/src/main/java/com/htbridge/pivaa/handlers/database/DatabaseRecord.java

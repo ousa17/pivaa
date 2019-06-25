@@ -1,1 +1,0 @@
-M 2webXhrCapp/src/main/java/org/apache/commons/codec/language/bm/package.html
