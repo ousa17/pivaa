@@ -133,10 +133,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="972" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -253,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.All in app (2)">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="All in app (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="PACKAGE_NAME" value="" />

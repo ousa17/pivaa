@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.htbridge.pivaa">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -22,7 +23,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:protectionLevel="dangerous"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:protectionLevel="dangerous"
             android:name=".MainActivity"
@@ -68,7 +70,7 @@
         <activity
             android:name=".ContentProviderActivity"
             android:label="@string/title_activity_content_provider"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
 
 
         <service
@@ -76,7 +78,7 @@
             android:enabled="true"
             android:exported="true"
             android:protectionLevel="dangerous"
-            />
+            tools:ignore="ExportedService" />
 
         <receiver
             android:name=".handlers.VulnerableReceiver"
