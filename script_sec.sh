@@ -16,5 +16,5 @@ curl -X POST --url http://localhost:8000/api/v1/report_json --data "hash=$hash&s
 #printf "\n5- run glue on json file*****\n"
 #glue/lib/glue/mappings/schema.json
 #Severity should be between 1 to 3, not 0
-#docker run  -v $(pwd):/app owasp/glue:raw-latest ruby bin/glue -t Dynamic -T /app/report.json --mapping-file mobsf --finding-file-path /app/android.json -z 2
+docker run  -v $(pwd):/app owasp/glue:raw-latest ruby bin/glue -t Dynamic -T /app/report.json --mapping-file mobsf --finding-file-path /app/android.json -z 2
 
