@@ -65,11 +65,6 @@ desc "Documentation"
     # You can also use other beta testing services here
   end
 
-  after_all do |lane|
-        slack(
-          message: "Successfully running security => MobSF : http://localhost:8000/StaticAnalyzer/?name=app-debug.apk&type=apk&checksum=165fce4921d8215edb28e1b83e31b2cf"
-        )
-        end
 
 desc "Beta"
   lane :beta do
@@ -94,12 +89,14 @@ desc "Prod"
   #upload_to_play_store
 
   after_all do |lane|
+  if lane == : prod
     slack(
-      message: "Successfully #{lane} build ).",
+      message: "MobSF : http://localhost:8000/StaticAnalyzer/?name=app-debug.apk&type=apk&checksum=165fce4921d8215edb28e1b83e31b2cf Successfully #{lane} build ).",
       payload: {
         'What\'s new' => last_git_commit
       }
     )
+    end
 end
 
 error do |lane, exception|
