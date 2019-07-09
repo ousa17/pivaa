@@ -80,6 +80,7 @@
         <receiver
             android:name=".handlers.VulnerableReceiver"
             android:protectionLevel="signature"
+            android:exported="false"
             >
             <intent-filter>
                 <action android:name="service.vulnerable.vulnerableservice.LOG" />
