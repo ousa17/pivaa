@@ -75,16 +75,10 @@
 
         <service
             android:name=".handlers.VulnerableService"
-            android:enabled="true"
-            android:exported="true"
-            android:protectionLevel="dangerous"
             tools:ignore="ExportedService" />
 
         <receiver
             android:name=".handlers.VulnerableReceiver"
-            android:enabled="true"
-            android:exported="true"
-            android:protectionLevel="dangerous"
             >
             <intent-filter>
                 <action android:name="service.vulnerable.vulnerableservice.LOG" />
@@ -94,10 +88,6 @@
         <provider
             android:name=".handlers.VulnerableContentProvider"
             android:authorities="com.htbridge.pivaa"
-            android:enabled="true"
-            android:exported="true"
-            android:grantUriPermissions="true"
-            android:protectionLevel="dangerous"
             />
 
 
