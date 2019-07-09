@@ -16,7 +16,7 @@
 default_platform(:android)
 
 before_all do
-    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
   end
 
 
