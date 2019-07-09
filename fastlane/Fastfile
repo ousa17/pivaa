@@ -103,11 +103,20 @@ error do |lane, exception|
     reset_git_repo(
       force: true
     )
-    
+    if lane == :sec
+    slack(
+          message: "MobSF : http://localhost:8000/StaticAnalyzer/?name=app-debug.apk&type=apk&checksum=165fce4921d8215edb28e1b83e31b2cf Security problem).",
+          payload: {
+            'What\'s new' => last_git_commit
+          }
+        )
+        else
     slack(
       message: exception.message,
       success: false
     )
+    end
+
 end
 
 end
