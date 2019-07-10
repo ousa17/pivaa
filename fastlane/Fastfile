@@ -58,14 +58,6 @@ desc "Documentation"
     # You can also use other beta testing services here
   end
 
- desc "Security"
-  lane :sec do
-    sh "bash ../script_sec.sh"
-    # sh "your_script.sh"
-    # You can also use other beta testing services here
-  end
-
-
 desc "Beta"
   lane :beta do
     `echo(key: "Beta")`
