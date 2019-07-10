@@ -61,7 +61,6 @@ desc "Documentation"
  desc "Security"
   lane :sec do
     sh "bash ../script_sec.sh"
-    sh "bash echo $?"
     # sh "your_script.sh"
     # You can also use other beta testing services here
   end
