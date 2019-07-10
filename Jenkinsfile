@@ -53,7 +53,7 @@
    stage ('Security'){
 
    steps {
-   sh 'bash script_sec.sh'
+   sh 'fastlane sec'
    }
    }
 
