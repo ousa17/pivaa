@@ -74,7 +74,6 @@ desc "Prod"
     # sh "your_script.sh"
     # You can also use other beta testing services here
   end
-
   #desc "Deploy a new version to the Google Play"
   #lane :deploy do
   #gradle(task: "clean assembleRelease")
