@@ -56,14 +56,11 @@
    sh 'bash script_sec.sh'
    }
       post {
-          always {
-           slackSend color: 'good', message: 'sec done'
-          }
           success {
-             slackSend color: 'good', message: 'sec passed'
+             slackSend color: 'good', message: 'Security test passed successfully'
           }
           failure {
-             slackSend color: 'danger', message: 'sec failed'
+             slackSend color: 'danger', message: 'Security Test Failed : http://localhost:8000/StaticAnalyzer/?name=app-debug.apk&type=apk&checksum=165fce4921d8215edb28e1b83e31b2cf'
           }
         }
    }
@@ -83,15 +80,14 @@
    }
    }
 
+ stage('Slack Notification') {
    post {
-       always {
-        slackSend color: 'good', message: 'Jenkins works done'
-       }
        success {
           slackSend color: 'good', message: 'Yes we passed'
        }
        failure {
           slackSend color: 'danger', message: 'Boo We failed'
        }
+     }
      }
    }
