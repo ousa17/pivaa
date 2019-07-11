@@ -80,7 +80,6 @@
    }
    }
 
- stage('Slack Notification') {
    post {
        success {
           slackSend color: 'good', message: 'Yes we passed'
@@ -88,6 +87,5 @@
        failure {
           slackSend color: 'danger', message: 'Boo We failed'
        }
-     }
      }
    }
