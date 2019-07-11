@@ -82,10 +82,10 @@
 
    post {
        success {
-          slackSend color: 'good', message: 'Yes we passed'
+          slackSend color: 'good', message: 'Yes SUCCESS'
        }
        failure {
-          slackSend color: 'danger', message: 'Boo We failed'
+          slackSend color: 'danger', message: 'Boo FAILURE
        }
      }
    }
