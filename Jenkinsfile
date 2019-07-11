@@ -56,9 +56,6 @@
    sh 'bash script_sec.sh'
    }
       post {
-          success {
-             slackSend color: 'good', message: 'Security test passed successfully'
-          }
           failure {
              slackSend color: 'danger', message: 'Security Test Failed : http://localhost:8000/StaticAnalyzer/?name=app-debug.apk&type=apk&checksum=165fce4921d8215edb28e1b83e31b2cf'
           }
@@ -82,10 +79,10 @@
 
    post {
        success {
-          slackSend color: 'good', message: 'Yes SUCCESS'
+          slackSend color: 'good', message: 'JENKINS BUILD WITH SUCCESS'
        }
        failure {
-          slackSend color: 'danger', message: 'Boo FAILURE
+          slackSend color: 'danger', message: 'JENKINS BUILD WITH FAILURE'
        }
      }
    }
