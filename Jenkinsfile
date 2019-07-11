@@ -55,6 +55,17 @@
    steps {
    sh 'bash script_sec.sh'
    }
+      post {
+          always {
+           slackSend color: 'good', message: 'sec done'
+          }
+          success {
+             slackSend color: 'good', message: 'sec passed'
+          }
+          failure {
+             slackSend color: 'danger', message: 'sec failed'
+          }
+        }
    }
 
    stage ('Prepro'){
@@ -74,8 +85,13 @@
 
    post {
        always {
-        slackSend color: 'good', message: 'Message from Jenkins Pipeline'
+        slackSend color: 'good', message: 'Jenkins works done'
        }
-
+       success {
+          slackSend color: 'good', message: 'Yes we passed'
+       }
+       failure {
+          slackSend color: 'danger', message: 'Boo We failed'
+       }
      }
    }
