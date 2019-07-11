@@ -80,14 +80,12 @@ desc "Prod"
   #upload_to_play_store
 
   after_all do |lane|
-  if lane == :prod
     slack(
-      message: "MobSF : http://localhost:8000/StaticAnalyzer/?name=app-debug.apk&type=apk&checksum=165fce4921d8215edb28e1b83e31b2cf Successfully #{lane} build ).",
+      message: "Successfully #{lane} build ).",
       payload: {
         'What\'s new' => last_git_commit
       }
     )
-    end
 end
 
 error do |lane, exception|

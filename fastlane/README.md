@@ -41,11 +41,6 @@ Metrics
 fastlane android documentation
 ```
 Documentation
-### android sec
-```
-fastlane android sec
-```
-Security
 ### android beta
 ```
 fastlane android beta
