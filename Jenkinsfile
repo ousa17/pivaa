@@ -85,7 +85,7 @@
           slackSend color: 'good', message: 'Yes SUCCESS'
        }
        failure {
-          slackSend color: 'danger', message: 'Boo FAILURE
+          slackSend color: 'danger', message: 'Boo FAILURE'
        }
      }
    }
